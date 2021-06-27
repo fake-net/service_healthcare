@@ -1,0 +1,194 @@
+@charset "utf-8";
+/*CSS DOC*/
+body{
+    background-color :white;
+}
+nav{
+    display: flex;
+    height:100px;
+    box-shadow: 2px 2px 12px whitesmoke;
+    background-color: rgb(245, 245, 156);
+}
+nav h1{
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    margin-left: 170px;
+    text-decoration: underline;
+}
+.fk{
+    margin-left: 700px;
+}
+nav button{
+    background-color: red;
+    color: white;
+    padding : 2px 5px;
+    text-decoration: none;
+    height: 50px;
+    width: 120px;
+    outline: none;
+    border: none;
+    margin-top: 20px;
+}
+a:link{
+    text-decoration: none;
+    color: white;
+}
+.first{
+    display: flex;
+    background-color: rgb(245, 245, 156);
+    margin-top: 10px;
+}
+.first img{
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+.first p{
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    font-weight: 500;
+    margin-left: 20px;
+    line-height: 50px;
+}
+.second{
+    display: flex;
+    background-color: rgb(245, 245, 156);
+    margin-top: 10px;
+}
+.second img{
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+.second p{
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    font-weight: 500;
+    margin-left: 20px;
+    line-height: 50px;
+}
+.second textarea {
+    width: 100%;
+    height: 200px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    resize: none;
+    color: rgb(100, 98, 98);
+  }
+  .second button{
+    background-color: red;
+    color: white;
+    padding : 2px 5px;
+    text-decoration: none;
+    height: 50px;
+    width: 120px;
+    outline: none;
+    border: none;
+    margin-top: 2px;
+}
+.second button:hover{
+    transform: scale(1.1);
+    background-color: maroon;
+}
+.third{
+    display: flex;
+    background-color: rgb(245, 245, 156);
+    margin-top: 10px;
+}
+.third img{
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+.third p{
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    font-weight: 500;
+    margin-left: 20px;
+    line-height: 50px;
+}
+.fourth{
+    display: flex;
+    background-color: rgb(245, 245, 156);
+    margin-top: 10px;
+}
+.fourth img{
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+.fourth p{
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    font-weight: 500;
+    margin-left: 20px;
+    line-height: 50px;
+}
+.heading1 {
+    font-size:50px;
+    position: relative;
+    font-weight: bolder;
+    color:black;
+    text-decoration: underline;
+    position: relative;
+    text-align:center ;
+}
+footer p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+footer p:nth-child(1){
+    font-size: 30px;
+    color:black;
+    width:600px;
+    text-align: center;
+}
+.social-icons a{
+    width:90px;
+    height:90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(2, 2, 44);
+    margin:20px 20px;
+    border-radius: 50%;
+}
+.social-icons{
+    display: flex;
+    margin-left: 410px;
+}
+.copyright{
+    color: black;
+    font-size:15px;
+}
+.social-icons i{
+    color:white;
+
+}
+.social-icons a:hover{
+    background-color: white;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
+    transition: all ease 0.5s;
+}
+.social-icons a:hover i{
+    color:rgb(2, 2, 44);
+    transition: all ease 0.5s;
+}
+footer{
+    background-color: rgb(245, 245, 156);
+    align-items: center;
+}
+.kl{
+    margin-left: 400px;
+}
+.jl{
+    margin-left: 400px;
+}
